@@ -21,7 +21,7 @@ create table instituicao(
     id serial,
     nome varchar(255),
     codigo varchar(255),
-    acronimo varchar(255) unique,
+    acronimo varchar(255),
     endereco text,
     distrito varchar(255),
     cidade varchar(255),
